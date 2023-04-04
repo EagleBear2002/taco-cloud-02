@@ -7,16 +7,16 @@ import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class ExplicitConfig {
-
-  @Bean
-  @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-  public Notepad notepad() {
-    return new Notepad();
-  }
-  
-  @Bean
-  public UniqueThing unique() {
-    return new UniqueThing();
-  }
-  
+	
+	@Bean
+	@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+	public Notepad notepad() {
+		return new Notepad();
+	}
+	
+	@Bean
+	public UniqueThing unique() {
+		return new UniqueThing();
+	}
+	
 }

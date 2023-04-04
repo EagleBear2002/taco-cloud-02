@@ -7,15 +7,15 @@ import org.springframework.core.env.Environment;
 
 @Configuration
 public class EnvironmentConfigWithRequiredProperties {
-
-  @Autowired
-  Environment env;
-  
-  @Bean
-  public BlankDisc blankDisc() {
-    return new BlankDisc(
-        env.getRequiredProperty("disc.title"),
-        env.getRequiredProperty("disc.artist"));
-  }
-  
+	
+	@Autowired
+	Environment env;
+	
+	@Bean
+	public BlankDisc blankDisc() {
+		return new BlankDisc(
+				env.getRequiredProperty("disc.title"),
+				env.getRequiredProperty("disc.artist"));
+	}
+	
 }

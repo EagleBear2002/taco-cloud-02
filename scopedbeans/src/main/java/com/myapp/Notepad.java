@@ -7,5 +7,5 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Notepad {
-  // the details of this class are inconsequential to this example
+	// the details of this class are inconsequential to this example
 }

@@ -6,7 +6,7 @@
     <groupId>com.example</groupId>
     <artifactId>section2</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>第二节</name>
+    <name>section02</name>
     <description>依赖注入（Dependency Injection）</description>
     <packaging>pom</packaging>
 
